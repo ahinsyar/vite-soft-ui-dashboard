@@ -87,7 +87,6 @@ import VsudInput from '@/components/VsudInput.vue';
 import VsudSwitch from '@/components/VsudSwitch.vue';
 import VsudButton from '@/components/VsudButton.vue';
 import bgImg from '@/assets/img/curved-images/curved9.jpg';
-import Swal from 'sweetalert2';
 
 const body = document.getElementsByTagName('body')[0];
 

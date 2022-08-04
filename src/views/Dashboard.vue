@@ -184,7 +184,7 @@ export default {
           title: "Today's Users",
           value: "2,300",
           percentage: "+3%",
-          iconClass: "ni ni-world",
+          iconClass: "fas fa-globe-asia",
         },
         clients: {
           title: "New Clients",
