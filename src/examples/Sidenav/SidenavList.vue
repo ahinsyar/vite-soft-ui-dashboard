@@ -5,6 +5,13 @@
   >
     <ul class="navbar-nav">
       <li class="nav-item">
+        <sidenav-collapse nav-text="JapariView" :to="{ name: 'Japari View' }">
+          <template #icon>
+            <icon name="dashboard" />
+          </template>
+        </sidenav-collapse>
+      </li>
+      <li class="nav-item">
         <sidenav-collapse nav-text="Dashboard" :to="{ name: 'Dashboard' }">
           <template #icon>
             <icon name="dashboard" />
