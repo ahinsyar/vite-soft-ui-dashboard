@@ -13,7 +13,7 @@ const routes = [
   {
     path: "/",
     name: "/",
-    redirect: "/dashboard",
+    redirect: "/japari-view",
   },
   {
     path: "/dashboard",

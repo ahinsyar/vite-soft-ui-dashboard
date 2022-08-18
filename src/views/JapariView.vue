@@ -48,7 +48,7 @@
     </div>
   </div>
   <div class="mt-4 row">
-    <div class="mb-4 col-lg-6 mb-lg-0">
+    <div class="mb-4 col-lg-12 mb-lg-0">
       <div class="card z-index-2">
         <div class="p-3 card-body">
           <!-- chart -->
@@ -56,7 +56,9 @@
         </div>
       </div>
     </div>
-    <div class="mb-4 col-lg-6 mb-lg-0">
+  </div>
+  <div class="mt4 row">
+    <div class="mb-4 col-lg-12 mb-lg-0">
       <div class="card z-index-2">
         <div class="p-3 card-body">
           <!-- chart -->
@@ -98,14 +100,14 @@ export default {
           percentage: "퍼센트 영역을 늘립니다.",
           percentageColor: "bg-gradient-danger",
           iconClass: "fas fa-coins",
-          directionReverse:true,
+          directionReverse: true,
           iconBackground: "bg-gradient-success",
         },
         defaultInfoCard:{
           iconBg: "bg-danger",
           classIcon: "far fa-address-book",
           title: "어드레스 북",
-          desc: "뭔지 모르겠음",
+          desc: "디스크립션",
           price: "프라이스",
         }
       }
